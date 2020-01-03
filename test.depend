@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1578068930 source:d:\jolitos\test\main.c
+	<stdio.h>
+	<stdlib.h>
+
