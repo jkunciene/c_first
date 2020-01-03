@@ -3,6 +3,8 @@
 
 int main()
 {
+    printf("My %s number is %d\n", "favorite", 9);
+
     int age = 38;
     char name[] = "Jolita";
 
