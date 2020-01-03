@@ -24,5 +24,17 @@ int main()
     printf("Hello, my name is %s !\n", name);
     printf("I'm %d years old!\n", age);
 
+    int ageOfYuo;
+    printf("Enter yuor age: ");
+    scanf("%d", &ageOfYuo);
+    printf("Yuo are %d years old \n", ageOfYuo );
+
+    char nameOfYou[20];
+    printf("Enter your name: ");
+    scanf("%s", nameOfYou);
+    printf("Yuor name is %s", nameOfYou); //atprintina tik pirma string iki tarpo
+    fgets(nameOfYou, 20, stdin);
+    printf("Yuor name is %s ", nameOfYou);
+
     return 0;
 }
